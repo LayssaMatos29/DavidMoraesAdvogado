@@ -1,7 +1,5 @@
 /* Estilos gerais */
-*{
-    color: #25282e;
-}
+
 body{
     background-image: url('img/fundo.png');
     background-repeat: no-repeat;
@@ -74,6 +72,9 @@ a,i{
     position: absolute;
     left: 25px;
     bottom: 25px;
+}
+.icone{
+    color: red;
 }
 
 /*  GALERY */
