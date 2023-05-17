@@ -1,6 +1,9 @@
 /* Estilos gerais */
-*{
-    color: #25282e;
+
+body{
+    background-image: url('img/fundo.png');
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 a,i{
     transition: .5s;
@@ -15,13 +18,13 @@ a,i{
 }
 .btn{
     text-decoration: none;
-    background-color: #25282e;
+    background-color: #2F4F4F !important;
     color: #fff;
-    padding: 7px 18px;
+    padding: 15px 30px;
     border-radius: 0;
 }
 .btn:hover{
-    background-color:#333 ;
+    background-color:red ;
     color: #fff;
 }
 
@@ -39,7 +42,7 @@ a,i{
     justify-content: center;
 }
 #logo{
-    width: 40px;
+    width: 30rem;
     margin-right: 15px;
 }
 
@@ -50,7 +53,7 @@ a,i{
 }
 #navbar a{
     width: 80px;
-    color: #444;
+    color: #fff;
 }
 #navbar a:hover{
     color: #c1b696;
@@ -59,7 +62,7 @@ a,i{
 /* MAIN IMAGE */
 .main-image{
     height: 400px;
-    background-image: url('img/g_1.jpg');
+    background-image: url('img/topo.png');
     margin-bottom: 30px;
     position: relative;
 }
@@ -70,24 +73,36 @@ a,i{
     left: 25px;
     bottom: 25px;
 }
+.icone{
+    color: red;
+}
 
 /*  GALERY */
 #img2{
-    background-image: url('img/g_2.jpg');
+    background-image: url('img/serviço.png');
 }
 #img3{
-    background-image: url('img/g_3.jpg');
+    background-image: url('img/serviço.png');
 }
 #img4{
-    background-image: url('img/g_4.jpg');
+    background-image: url('img/serviço.png');
 }
 #img5{
-    background-image: url('img/g_5.jpg');
+    background-image: url('img/serviço.png');
 }
 #img6{
-    background-image: url('img/g_6.jpg');
+    background-image: url('img/serviço.png');
 }
-#gallery-container h1{
+#img7{
+    background-image: url('img/serviço.png');
+}
+#img8{
+    background-image: url('img/serviço.png');
+}
+#img9{
+    background-image: url('img/serviço.png');
+}
+#gallery-container h1, p{
     text-align: center;
 }
 #gallery-container h1,
@@ -99,6 +114,20 @@ a,i{
 .small-image-container{
     height: 250px;
     margin-bottom: 20px;
+}
+
+/*  Sobre */
+#img10{
+    background-image: url('img/foto.jpg');
+    width: 25rem;
+    height: 25rem;
+}
+.small-image-container2{
+    height: 500px;
+    margin-bottom: 20px;
+}
+.sobre{
+ height: 50px;
 }
 
 /* FOOTER */
