@@ -1,154 +1,229 @@
 /* Estilos gerais */
 
-body{
+body {
     background-image: url('img/fundo.png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    overflow-x: hidden;
 }
-a,i{
+
+a, i {
     transition: .5s;
     text-decoration: none;
 }
-.secondary-color{
+
+.secondary-color {
     color: #555;
 }
-.center-image{
+
+.center-image {
     background-size: cover;
-    background-position:center;
+    background-position: center;
 }
-.btn{
+
+.btn {
     text-decoration: none;
     background-color: #2F4F4F !important;
     color: #fff;
     padding: 15px 30px;
     border-radius: 0;
 }
-.btn:hover{
-    background-color:red ;
+
+.btn:hover {
+    background-color: red;
     color: #fff;
 }
 
 /* HEADER */
-#header{
+#header {
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ccc;
 }
-#header p{
+
+#header p {
     margin-bottom: 0;
 }
-#logo-container{
+
+#logo-container {
     display: flex;
     justify-content: center;
 }
-#logo{
+
+#logo {
     width: 30rem;
     margin-right: 15px;
 }
 
 /* NAVBAR */
-#navbar{
+#navbar {
     padding: 10px;
     margin: 10px auto;
 }
-#navbar a{
+
+#navbar a {
     width: 80px;
     color: #fff;
 }
-#navbar a:hover{
+
+#navbar a:hover {
     color: #c1b696;
 }
 
 /* MAIN IMAGE */
-.main-image{
+.main-image {
     height: 400px;
     background-image: url('img/topo.png');
     margin-bottom: 30px;
     position: relative;
 }
-.main-image-info{
+
+.main-image-info {
     background-color: #fff;
     padding: 25px;
     position: absolute;
     left: 25px;
     bottom: 25px;
 }
-.icone{
+
+.icone {
     color: red;
 }
 
 /*  GALERY */
-#img2{
+#img2 {
     background-image: url('img/serviço.png');
 }
-#img3{
+
+#img3 {
     background-image: url('img/serviço.png');
 }
-#img4{
+
+#img4 {
     background-image: url('img/serviço.png');
 }
-#img5{
+
+#img5 {
     background-image: url('img/serviço.png');
 }
-#img6{
+
+#img6 {
     background-image: url('img/serviço.png');
 }
-#img7{
+
+#img7 {
     background-image: url('img/serviço.png');
 }
-#img8{
+
+#img8 {
     background-image: url('img/serviço.png');
 }
-#img9{
+
+#img9 {
     background-image: url('img/serviço.png');
 }
-#gallery-container h1, p{
+
+#gallery-container h1,
+#gallery-container p {
     text-align: center;
 }
+
 #gallery-container h1,
 #gallery-container .col-md-6,
-#gallery-container .col-xs-12{
+#gallery-container .col-xs-12 {
     margin-bottom: 50px;
 }
 
-.small-image-container{
+.small-image-container {
     height: 250px;
     margin-bottom: 20px;
 }
 
 /*  Sobre */
-#img10{
+#img10 {
     background-image: url('img/foto.jpg');
     width: 25rem;
     height: 25rem;
 }
-.small-image-container2{
+
+.small-image-container2 {
     height: 500px;
     margin-bottom: 20px;
 }
-.sobre{
- height: 50px;
+
+.sobre {
+    height: 50px;
 }
 
 /* FOOTER */
-footer{
+footer {
     border-top: 1px solid #ccc;
     height: 250px;
     padding: 30px;
 }
-footer i{
+
+footer i {
     font-size: 20px;
 }
-#social-icons-container{
+
+#social-icons-container {
     padding: 25px;
 }
-#social-icons-container div{
+
+#social-icons-container div {
     text-align: center;
 }
-footer p{
+
+footer p {
     text-align: center;
     margin: 20px;
 }
-a:hover i{
+
+a:hover i {
     color: #c1b696;
+}
+
+/* Responsividade */
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 20rem;
+    }
+
+    .main-image {
+        height: 300px;
+    }
+
+    .main-image-info {
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .small-image-container,
+    .small-image-container2 {
+        height: 200px;
+    }
+}
+
+/* Estilos para telas ainda menores */
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 15rem;
+    }
+
+    .main-image {
+        height: 200px;
+    }
+
+    .main-image-info {
+        left: 10px;
+        bottom: 10px;
+        padding: 15px;
+    }
+
+    .small-image-container,
+    .small-image-container2 {
+        height: 150px;
+    }
 }
